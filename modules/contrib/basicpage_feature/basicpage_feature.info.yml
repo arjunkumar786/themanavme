@@ -1,0 +1,15 @@
+name: 'BasicPage Feature'
+type: module
+core: 8.x
+dependencies:
+  - block
+  - content_moderation
+  - field
+  - metatag
+  - node
+  - path
+  - rdf
+  - text
+  - user
+  - views
+version: 8.x-1.0

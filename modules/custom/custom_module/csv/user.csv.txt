@@ -1,0 +1,6 @@
+ID,name,firstname,lastname,email,password,roles,status
+427690,Admin,Admin,Admin,registrations@rollonfriday.com,admin,"authenticated, administrator",1
+579737,any_tips,test,test,test@gmail.com,alisaalisa,authenticated,1
+512222,rakesh,James,Rakesh,rakesh.james@gmail.com,rakesh@123,authenticated,1
+545121,james,Rakesh,James,james.rakesh@gmail.com,james@123,authenticated,1
+121212,dummy,User,Dummy,dummy@gmail.com,dummy@123,administrator,1

@@ -1,0 +1,8 @@
+custom_module.registerform:
+  version: 1.x
+  js:
+    js/jquery.validate.min.js: {}
+    js/jquery.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupalSettings

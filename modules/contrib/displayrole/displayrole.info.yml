@@ -1,0 +1,14 @@
+name: Display role
+type: module
+description: Allows administrators to configure roles to display on user profiles.
+# core: 8.x
+configure: entity.entity_view_display.user.default
+
+dependencies:
+ - user
+
+# Information added by Drupal.org packaging script on 2016-07-17
+version: '8.x-1.0-beta1'
+core: '8.x'
+project: 'displayrole'
+datestamp: 1468723351

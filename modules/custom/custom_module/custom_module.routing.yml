@@ -1,0 +1,7 @@
+custom_module.connection:
+  path: 'connection'
+  defaults:
+    _controller: 'Drupal\custom_module\Controller\Connection::content'
+    _title: 'Connection'
+  requirements:
+    _permission: 'access content'
