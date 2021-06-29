@@ -20,4 +20,4 @@ jobs:
         server: ${{ secrets.ftp_host }}
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        server-dir: /themanav/
+        server-dir: /home2/tandms4s/themanav
