@@ -14,10 +14,8 @@ jobs:
     - name: 🚚 Get latest code
       uses: actions/checkout@v2
     
-    - uses: php-actions/composer@v1
-      with:
-        php_version: 7.3
-        version: 1
+    - name: Install dependencies
+      run: composer install --ignore-platform-reqs
     
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
