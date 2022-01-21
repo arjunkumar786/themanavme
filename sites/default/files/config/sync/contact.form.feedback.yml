@@ -1,0 +1,14 @@
+uuid: c6130b22-9d4d-4ad8-b275-b4453dba6bc9
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - arjun.kumar127@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
+langcode: en
+uuid: 383dc12f-8cdd-46b5-9a43-aa6a9fef822b
+name: Manav
+mail: arjun.kumar127@gmail.com
+slogan: TheDrupaler
+page:
+  403: /node/14
+  404: /node/13
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: ''

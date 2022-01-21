@@ -1,0 +1,22 @@
+uuid: c86dda8d-656b-4a6c-b998-7103a5a5f4a2
+langcode: en
+status: false
+dependencies:
+  module:
+    - basic_auth
+    - hal
+    - serialization
+    - user
+    - views
+id: entity.view
+plugin_id: 'entity:view'
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - hal_json
+    - json
+  authentication:
+    - basic_auth
+    - cookie
